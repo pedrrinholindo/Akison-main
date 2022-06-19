@@ -1,27 +1,29 @@
 
 package br.com.GoodRestHotel.model;
 
-import java.awt.Image;
-import java.util.Calendar;
-
 public class Funcionario {
     private int id;
     private String nome;
     private String sobrenome;
-    private Calendar anoNascimento;
+    private String anoNascimento;
     private String cpf;
     private String rg;
-    private char sexo;
+    private String sexo;
     private String cargo;
-    private Image foto;
     private String usuario;
     private String senha;
     private String acesso;
     private String email;
     private String celular;
-    private Endereco endereco;
+    private String rua;
+    private int numero;
+    private String complemento;
+    private String bairro;
+    private String cidade;
+    private String estado;
+    private String cep;
 
-    public Funcionario(int id, String nome, String sobrenome, Calendar anoNascimento, String cpf, String rg, char sexo, String cargo, Image foto, String usuario, String senha, String acesso, String email, String celular, Endereco endereco) {
+    public Funcionario(int id, String nome, String sobrenome, String anoNascimento, String cpf, String rg, String sexo, String cargo, String usuario, String senha, String acesso, String email, String celular, String rua, int numero, String complemento, String bairro, String cidade, String estado, String cep) {
         this.id = id;
         this.nome = nome;
         this.sobrenome = sobrenome;
@@ -30,20 +32,23 @@ public class Funcionario {
         this.rg = rg;
         this.sexo = sexo;
         this.cargo = cargo;
-        this.foto = foto;
         this.usuario = usuario;
         this.senha = senha;
         this.acesso = acesso;
         this.email = email;
         this.celular = celular;
-        this.endereco = endereco;
+        this.rua = rua;
+        this.numero = numero;
+        this.complemento = complemento;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.cep = cep;
     }
 
     public Funcionario() {
     }
     
-    
-
     public int getId() {
         return id;
     }
@@ -68,11 +73,11 @@ public class Funcionario {
         this.sobrenome = sobrenome;
     }
 
-    public Calendar getAnoNascimento() {
+    public String getAnoNascimento() {
         return anoNascimento;
     }
 
-    public void setAnoNascimento(Calendar anoNascimento) {
+    public void setAnoNascimento(String anoNascimento) {
         this.anoNascimento = anoNascimento;
     }
 
@@ -92,11 +97,11 @@ public class Funcionario {
         this.rg = rg;
     }
 
-    public char getSexo() {
+    public String getSexo() {
         return sexo;
     }
 
-    public void setSexo(char sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
@@ -106,14 +111,6 @@ public class Funcionario {
 
     public void setCargo(String cargo) {
         this.cargo = cargo;
-    }
-
-    public Image getFoto() {
-        return foto;
-    }
-
-    public void setFoto(Image foto) {
-        this.foto = foto;
     }
 
     public String getUsuario() {
@@ -155,18 +152,61 @@ public class Funcionario {
     public void setCelular(String celular) {
         this.celular = celular;
     }
-
-    public Endereco getEndereco() {
-        return endereco;
+  
+    public String getRua() {
+        return rua;
     }
 
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
+    public void setRua(String rua) {
+        this.rua = rua;
     }
-    
-    
-    
-    
-    
-    
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public String getComplemento() {
+        return complemento;
+    }
+
+    public void setComplemento(String complemento) {
+        this.complemento = complemento;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    } 
+  
 }

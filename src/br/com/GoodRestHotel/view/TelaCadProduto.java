@@ -266,7 +266,7 @@ public class TelaCadProduto extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCadastrar;
     private javax.swing.JButton btnPesquisar;
-    private javax.swing.JSpinner jSQTD;
+    protected javax.swing.JSpinner jSQTD;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel jpCadastroProduto;
     private javax.swing.JPanel jpTable;
@@ -277,9 +277,9 @@ public class TelaCadProduto extends javax.swing.JInternalFrame {
     private javax.swing.JLabel lblPrecoVend;
     private javax.swing.JLabel lblQTD;
     private javax.swing.JTable tableProduto;
-    private javax.swing.JTextField txtDescricao;
+    protected javax.swing.JTextField txtDescricao;
     private javax.swing.JTextField txtNomePro;
-    private javax.swing.JFormattedTextField txtPrecoCust;
-    private javax.swing.JFormattedTextField txtPrecoVend;
+    protected javax.swing.JFormattedTextField txtPrecoCust;
+    protected javax.swing.JFormattedTextField txtPrecoVend;
     // End of variables declaration//GEN-END:variables
 }

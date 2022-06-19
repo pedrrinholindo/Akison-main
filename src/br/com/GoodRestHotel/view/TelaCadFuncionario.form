@@ -54,7 +54,7 @@
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Component id="jpContatos" max="32767" attributes="0"/>
                           <Component id="jpEndereco" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jpCadUsuarios" alignment="0" pref="848" max="32767" attributes="0"/>
+                          <Component id="jpCadUsuarios" alignment="0" max="32767" attributes="0"/>
                           <Component id="jpDadosPessoais" alignment="0" max="32767" attributes="0"/>
                           <Component id="jpConsultas" alignment="0" max="32767" attributes="0"/>
                       </Group>
@@ -509,7 +509,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="33" green="33" red="ff" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="*campos obrigat&#xf3;rios para preenchimento!"/>
+                    <Property name="text" type="java.lang.String" value="*Campos obrigat&#xf3;rios para preenchimento!"/>
                   </Properties>
                 </Component>
               </SubComponents>

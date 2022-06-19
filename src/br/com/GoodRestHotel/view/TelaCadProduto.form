@@ -133,6 +133,9 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDescricaoActionPerformed"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="lblQTD">
           <Properties>
@@ -146,6 +149,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="jSQTD">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="lblPrecoCust">
           <Properties>
@@ -164,6 +170,9 @@
               <Format format="#######" subtype="-1" type="5"/>
             </Property>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="lblPrecoVend">
           <Properties>
@@ -185,6 +194,9 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPrecoVendActionPerformed"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="btnCadastrar">
           <Properties>
