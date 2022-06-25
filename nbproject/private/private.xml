@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/cpedro/NetBeansProjects/Akison/src/br/com/GoodRestHotel/model/Produto.java</file>
-            <file>file:/home/cpedro/NetBeansProjects/Akison/src/br/com/GoodRestHotel/model/Hospede.java</file>
-            <file>file:/home/cpedro/NetBeansProjects/Akison/src/br/com/GoodRestHotel/dao/HospedeDAO.java</file>
-            <file>file:/home/cpedro/NetBeansProjects/Akison/src/br/com/GoodRestHotel/dao/QuartoDAO.java</file>
-            <file>file:/home/cpedro/NetBeansProjects/Akison/src/br/com/GoodRestHotel/view/TelaCadProduto.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
